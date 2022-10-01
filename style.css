@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(pink, white);
+}
+.container{
+    background: linear-gradient(rgb(255, 255, 255), rgb(101, 197, 235));
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.month{
+    margin: 0;
+    background-color: rgb(5, 214, 214);
+    color: rgb(3, 3, 224);
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.day{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(83, 5, 156);
+}
+.date{
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(16, 16, 70);
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+.year{
+    margin: 20px 0;
+    font-size: 22px;
+    color: rgb(16, 16, 70);
+    font-weight: bold;
+}
